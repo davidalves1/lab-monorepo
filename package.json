@@ -1,0 +1,12 @@
+{
+  "name": "lab-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^5.4.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
