@@ -2,7 +2,15 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useNx": true,
   "useWorkspaces": true,
+  "npmClient": "yarn",
   "version": "independent",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish",
+      "allowBranch": "release/build"
+    }
+  },
   "packages": [
     "packages/*"
   ]

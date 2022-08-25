@@ -1,0 +1,14 @@
+{
+  "name": "@davidalves1/operations-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "@davidalves1",
+  "repository": "https://github.com/davidalves1/lab-monorepo",
+  "publishConfig": {
+    "@davidalves1:registry": "https://npm.pkg.github.com/davidalves1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@davidalves1/math-operations": "1.0.0"
+  }
+}
