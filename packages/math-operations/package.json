@@ -1,0 +1,10 @@
+{
+  "name": "@davidalves1/math-operations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "@davidalves1",
+  "publishConfig": {
+     "@davidalves1:registry": "https://npm.pkg.github.com/davidalves1"
+  },
+  "license": "MIT"
+}
