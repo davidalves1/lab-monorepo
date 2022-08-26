@@ -8,7 +8,7 @@
     "publish": {
       "conventionalCommits": true,
       "message": "chore(release): publish",
-      "allowBranch": "release/build"
+      "allowBranch": "master"
     }
   },
   "packages": [
