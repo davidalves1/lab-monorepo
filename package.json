@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "publish": "lerna publish",
+    "bump": "lerna version --conventional-commits --yes"
+  },
   "dependencies": {
     "lerna": "^5.4.3"
   },
